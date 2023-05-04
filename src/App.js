@@ -1,14 +1,17 @@
 import React from "react";
 import './App.css';
-import JsonDataDisplay from "./JsonDataDisplay";
+
+import Start from "./Start";
+
 
 
 
 function App() {
   return (
     <div className="App">
-     <h1>Recon Assitant</h1>
-     <JsonDataDisplay />
+      <h1>Recon Assitant</h1>
+
+      <Start />
 
     </div>
   );
