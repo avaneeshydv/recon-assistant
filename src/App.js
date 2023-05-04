@@ -2,6 +2,7 @@ import React from "react";
 import './App.css';
 
 import Start from "./Start";
+import Page2 from "./Page2";
 
 
 
@@ -12,7 +13,7 @@ function App() {
 
 
       <Start />
-
+        <Page2 />
     </div>
   );
 }
